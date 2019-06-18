@@ -3,6 +3,9 @@ import './App.scss';
 // Setup for Lowlight syntax highlighting
 import './highlightLanguages';
 
+// Setup the slide theme
+import 'reveal.js/css/theme/solarized.css';
+
 import Deck from './Components/RevealComponents/Deck';
 import Slide from './Components/RevealComponents/Slide';
 import Slides from './Slides';
