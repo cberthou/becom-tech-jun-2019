@@ -1,8 +1,10 @@
 import React from 'react';
 import TitleSlide from './TitleSlide';
-import FirstSlide from './FirstSlide';
+import StoringDataProblems from './StoringDataProblems';
+import UsingReduxAsDataStore from './UsingReduxAsDataStore';
 
 export default [
+    <UsingReduxAsDataStore key="UsingReduxAsDataStore"/>,
     <TitleSlide key="title"/>,
-    <FirstSlide key="first"/>
+    <StoringDataProblems key="first"/>,
 ];
