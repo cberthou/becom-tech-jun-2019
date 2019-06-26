@@ -1,0 +1,51 @@
+{
+  "layout": {
+    "id": "franceinfo",
+    "themes": [
+      "franceinfo",
+      "premiere"
+    ]
+  },
+  "themes": {
+    "franceinfo": {
+      "id": "franceinfo",
+      "title": "France info",
+      "newsletters": [
+        "ftvOptInfFtv7H30",
+        "ftvOptInfFtvAlr"
+      ]
+    },
+    "premiere": {
+      "id": "premiere",
+      "title": "La première",
+      "newsletters": [
+        "ftvOpt1Gua",
+        "ftvOpt1Guy"
+      ]
+    }
+  },
+  "newsletters": {
+    "ftvOptInfFtv7H30": {
+      "id": "ftvOptInfFtv7H30",
+      "title": "7h30",
+      "description": "Chaque matin à 7h30, recevez l'actu du jour dans votre boîte email : les principaux titres de la rédaction de franceinfo, les vidéos et les diaporamas. Et retrouvez le best of de l'actu chaque fin de semaine."
+    },
+    "ftvOptInfFtvAlr": {
+      "id": "ftvOptInfFtvAlr",
+      "title": "Alerte info",
+      "description": "Toute l'actualité en temps réel avec les flashs info de la rédaction."
+    },
+    "ftvOpt1Gua": {
+      "id": "ftvOpt1Gua",
+      "title": "1ère quotidienne Guadeloupe",
+      "shortTitle": "Guadeloupe",
+      "description": "Tous les jours, retrouvez toute l'information des départements d'Outre-Mer."
+    },
+    "ftvOpt1Guy": {
+      "id": "ftvOpt1Guy",
+      "title": "1ère quotidienne Guyane",
+      "shortTitle": "Guyane",
+      "description": "Tous les jours, retrouvez toute l'information des départements d'Outre-Mer."
+    }
+  }
+}

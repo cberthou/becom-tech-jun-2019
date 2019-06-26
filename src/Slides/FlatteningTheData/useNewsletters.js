@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import nl from './service/newsletters.json';
+import { newsletters as nl } from './service/newsletters.json';
 
 const useNewsletters = () => {
     const newsletters = useSelector(state => state.newsletters);

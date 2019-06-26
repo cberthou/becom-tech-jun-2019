@@ -14,13 +14,8 @@ const nlReducerCode = `const reducer = ({ state, action }) => {
     }
 };`;
 
-const loadingData = `export const fetchNewsletters = () => async dispatch => {
-    const newsletters = await getNewsletters();
-    dispatch({ type: 'newsletters.store', newsletters });
-};`;
-
 const dataModel = `{
-    "id": string,
+    "id": "string",
     "themes": [
         {
             "id": "string",
@@ -40,10 +35,16 @@ const dataModel = `{
 const customHook =`const useNewsletters = () => {
     const newsletters = useSelector(state => state.newsletters);
     const dispatch = useDispatch();
+    
     useEffect(() => {
-        dispatch(fetchNewsletters());
-    }, [ dispatch ]);
+        const fetchData = async () => {
+            const newsletters = await Promise.resolve(nl);
+            dispatch({ type: 'newsletters.store', newsletters });
+        } ;
 
+        fetchData();
+    }, [ dispatch ]);
+    
     return newsletters;
 };`;
 
@@ -67,12 +68,6 @@ export default function UsingReduxAsDataStore() {
                 </div>
             </Slide>
             <Slide>
-                <div>
-                    <h4>Loading data</h4>
-                    <JSX code={loadingData} />
-                </div>
-            </Slide>
-            <Slide>
                 <p>Data Model</p>
                 <JSX code={dataModel} />
             </Slide>
@@ -90,6 +85,13 @@ export default function UsingReduxAsDataStore() {
             </Slide>
             <Slide>
                 <UsingReduxExample />
+            </Slide>
+            <Slide>
+                <h4>Main problems of this approach</h4>
+                <ul>
+                    <li>Refreshing data forces the full app refresh</li>
+                    <li>Nested data is harder to access directly</li>
+                </ul>
             </Slide>
         </Slide>
     )
