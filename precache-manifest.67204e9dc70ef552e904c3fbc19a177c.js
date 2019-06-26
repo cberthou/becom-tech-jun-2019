@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4236b8bd4d7697e65bf9e27454c641d6",
+    "revision": "ba3c5a25e8f0a04f8b6140e3eaf23555",
     "url": "/becom-tech-jun-2019/index.html"
   },
   {
-    "revision": "9902c340ce6d33cbb985",
+    "revision": "e3ef8e1301e0d723ab3e",
     "url": "/becom-tech-jun-2019/static/css/2.da5487dc.chunk.css"
   },
   {
-    "revision": "174e5e6d30b569c78a3f",
+    "revision": "dc0e311536a5297134d7",
     "url": "/becom-tech-jun-2019/static/css/main.4492c7ab.chunk.css"
   },
   {
-    "revision": "9902c340ce6d33cbb985",
-    "url": "/becom-tech-jun-2019/static/js/2.2be3c750.chunk.js"
+    "revision": "e3ef8e1301e0d723ab3e",
+    "url": "/becom-tech-jun-2019/static/js/2.d2f97b3c.chunk.js"
   },
   {
-    "revision": "174e5e6d30b569c78a3f",
-    "url": "/becom-tech-jun-2019/static/js/main.9a5aaeb4.chunk.js"
+    "revision": "dc0e311536a5297134d7",
+    "url": "/becom-tech-jun-2019/static/js/main.679b48eb.chunk.js"
   },
   {
     "revision": "c5831afbe559c5f524b7",
