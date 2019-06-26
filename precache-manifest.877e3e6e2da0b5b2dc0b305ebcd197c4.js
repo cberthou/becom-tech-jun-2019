@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba3c5a25e8f0a04f8b6140e3eaf23555",
+    "revision": "839987db408fda2ef69d3a5999754c2d",
     "url": "/becom-tech-jun-2019/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/becom-tech-jun-2019/static/css/2.da5487dc.chunk.css"
   },
   {
-    "revision": "dc0e311536a5297134d7",
+    "revision": "9f7237680b4018770b68",
     "url": "/becom-tech-jun-2019/static/css/main.4492c7ab.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/becom-tech-jun-2019/static/js/2.d2f97b3c.chunk.js"
   },
   {
-    "revision": "dc0e311536a5297134d7",
-    "url": "/becom-tech-jun-2019/static/js/main.679b48eb.chunk.js"
+    "revision": "9f7237680b4018770b68",
+    "url": "/becom-tech-jun-2019/static/js/main.b601b994.chunk.js"
   },
   {
     "revision": "c5831afbe559c5f524b7",

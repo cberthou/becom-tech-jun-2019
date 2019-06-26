@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/becom-tech-jun-2019/precache-manifest.67204e9dc70ef552e904c3fbc19a177c.js"
+  "/becom-tech-jun-2019/precache-manifest.877e3e6e2da0b5b2dc0b305ebcd197c4.js"
 );
 
 self.addEventListener('message', (event) => {
