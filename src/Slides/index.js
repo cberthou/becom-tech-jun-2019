@@ -5,6 +5,7 @@ import CentralizedStore from './CentralizedStore';
 import CraftingYourStore from './CraftingYourStore';
 import AntiCorruptionLayer from './AntiCorruptionLayer';
 import CachingData from './CachingData';
+import After from './After';
 
 export default [
     <TitleSlide key="title"/>,
@@ -12,5 +13,6 @@ export default [
     <CentralizedStore key="centralized"/>,
     <CraftingYourStore key="crafting"/>,
     <AntiCorruptionLayer key="ACL"/>,
-    <CachingData key="caching"/>
+    <CachingData key="caching"/>,
+    <After key="after" />
 ];
