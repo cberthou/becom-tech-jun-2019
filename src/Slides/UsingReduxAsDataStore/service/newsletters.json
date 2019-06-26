@@ -1,0 +1,39 @@
+{
+  "id": "franceinfo",
+  "themes": [
+    {
+      "id": "franceinfo",
+      "title": "France info",
+      "newsletters": [
+        {
+          "id": "ftvOptInfFtv7H30",
+          "title": "7h30",
+          "description": "Chaque matin à 7h30, recevez l'actu du jour dans votre boîte email : les principaux titres de la rédaction de franceinfo, les vidéos et les diaporamas. Et retrouvez le best of de l'actu chaque fin de semaine."
+        },
+        {
+          "id": "ftvOptInfFtvAlr",
+          "title": "Alerte info",
+          "description": "Toute l'actualité en temps réel avec les flashs info de la rédaction."
+        }
+      ]
+    },
+    {
+      "id": "premiere",
+      "title": "La première",
+      "newsletters": [
+        {
+          "id": "ftvOpt1Gua",
+          "title": "1ère quotidienne Guadeloupe",
+          "shortTitle": "Guadeloupe",
+          "description": "Tous les jours, retrouvez toute l'information des départements d'Outre-Mer."
+        },
+        {
+          "id": "ftvOpt1Guy",
+          "title": "1ère quotidienne Guyane",
+          "shortTitle": "Guyane",
+          "description": "Tous les jours, retrouvez toute l'information des départements d'Outre-Mer."
+        }
+      ]
+    }
+  ]
+}

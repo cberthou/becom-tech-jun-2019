@@ -38,7 +38,7 @@ export default function StoringDataProblems() {
             <Slide>
                 <div>
                     <h4>Problem</h4>
-                    <p>We need to centralize the data store to avoid requests duplication</p>
+                    <p>We need to centralize the data store to avoid requests duplication while keeping it usable</p>
                     <JSX code={multipleCalls} />
                 </div>
             </Slide>
